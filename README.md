@@ -14,6 +14,8 @@ A decentralized application designed for freelancers to find jobs and for organi
 - Integrated with MetaMask for secure and decentralized transactions.
 - Transactions are conducted on the Polygon network for low fees and fast processing.
 
+---
+
 ## Technology Stack:
 - Frontend: React.js
 - Blockchain: Ethereum (XDC network)
