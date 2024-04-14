@@ -1,0 +1,263 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;700;800&display=swap');
+
+:root {
+    --primary-color: hsl(244, 100%, 50%);
+    --neutral-color: hsl(240, 10%, 60%);
+    --background-color-surface: #09090d;
+    --background-color-body: #131318;
+    --text-color: hsl(0, 0%, 100%);
+    --gradient-color-purple-pink: linear-gradient(
+        to right,
+        #501e9c 0%,
+        #8169f1 30%,
+        #8169f1 30%,
+        #a44cee 73%,
+        #ff847f 100%
+    );
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    text-decoration: none;
+    font-size: 0.9em;
+    overflow-x: hidden;
+    position: relative;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: var(--background-color-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p,
+strong {
+    font-family: 'Inter', sans-serif !important;
+}
+
+small {
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    width: 100%;
+}
+
+.btn-primary-style {
+    padding: 12px 30px;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary-style {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.btn-primary-style:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    box-shadow: 0px 4px 20px 0px rgba(176, 65, 255, 0.427);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-style {
+    padding: 8px;
+    border: 1px solid transparent;
+    color: var(--text-color);
+    border: 1px solid hsla(0, 0%, 100%, 0.502) !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-style a,
+.btn-primary-style a {
+    padding: 10px 25px;
+}
+
+.btn-outline-style:hover {
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn-outline-style:hover a {
+    color: #fff;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.btn.send-btn,
+.btn.save-btn,
+.btn.cancel-btn {
+    padding: 10px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+.btn.contact-btn:hover,
+.btn.send-btn:hover,
+.btn.cancel-btn:hover {
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+.btn.contact-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+.btn.save-btn,
+.btn.cancel-btn {
+    min-width: 10rem;
+}
+
+/* custom css */
+.MuiCard-root,
+.MuiTypography-root.MuiTypography-h1 {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.MuiMenuItem-root.MuiMenuItem-colorNeutral {
+    padding: 10px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.MuiMenuItem-root.MuiMenuItem-colorNeutral svg {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+
+.MuiFormLabel-root,
+.MuiFormHelperText-root,
+.MuiOption-root {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.4rem !important;
+}
+
+.MuiTextarea-root,
+.MuiInput-input,
+.MuiSelect-button,
+.MuiAutocomplete-root.MuiAutocomplete-formControl {
+    padding: 12px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.4rem !important;
+}
+
+.MuiButton-root.MuiButton-variantSolid,
+.MuiInput-startDecorator,
+.MuiFormHelperText-root,
+.MuiTypography-root.MuiTypography-body1,
+.MuiTypography-root.MuiTypography-body2,
+.MuiSheet-root.MuiSheet-variantSoft,
+.MuiSelect-root.MuiSelect-variantPlain.MuiSelect-colorNeutral,
+.MuiSelect-root.Mui-expanded.MuiSelect-variantPlain.MuiSelect-colorNeutral {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+}
+
+.MuiTypography-root.MuiTypography-body3,
+.MuiButton-root.MuiButton-colorNeutral {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+.MuiButton-root.MuiButton-colorNeutral {
+    padding: 10px 20px;
+}
+
+.MuiButton-root.MuiButton-variantSolid.MuiButton-colorPrimary {
+    color: #fff;
+    background-color: var(--primary-color);
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+/*------------- navbar -------------*/
+.navbar.navbar-style {
+    padding: 20px 15px;
+    z-index: 1;
+}
+
+.navbar.navbar-style .nav-link,
+.navbar.navbar-style .nav-item {
+    position: relative;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 15px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.nav-link a,
+.nav-item a {
+    color: var(--text-color);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+a:hover,
+.nav-list .nav-link:hover,
+.nav-list .nav-item:hover {
+    color: var(--primary-color);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
