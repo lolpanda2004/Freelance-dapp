@@ -20,8 +20,9 @@ A decentralized application designed for freelancers to find jobs and for organi
 - Wallet Integration: Web3.js for MetaMask connectivity
 - Babel compiler
 
-## To run 
-1. First > npm i react-scripts
-2. 
-
+## To avoid build error 
+1. First ''' npm i react-scripts ''' to install react-scripts
+   
+## To build
+1. '''npm start''' to deploy the project on your browser
 
