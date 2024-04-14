@@ -21,8 +21,8 @@ A decentralized application designed for freelancers to find jobs and for organi
 - Babel compiler
 
 ## To avoid build error 
-1. First 'npm i react-scripts' to install react-scripts
+1. First **npm i react-scripts** to install react-scripts
    
 ## To build
-1. 'npm start' to deploy the project on your browser
+1. **npm start** to deploy the project on your browser
 
