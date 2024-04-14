@@ -21,7 +21,7 @@ A decentralized application designed for freelancers to find jobs and for organi
 - Babel compiler
 
 ## To run 
-1. First 'npm i react-scripts'
+1. First > npm i react-scripts
 2. 
 
 
