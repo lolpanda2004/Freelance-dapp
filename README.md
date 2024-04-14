@@ -22,8 +22,18 @@ A decentralized application designed for freelancers to find jobs and for organi
 - Babel compiler
 
 ## To avoid build error 
-1. First ### ****[*npm i react-scripts*]**** to install react-scripts
+1. First **[*npm i react-scripts*]** to install react-scripts
    
 ## To build
-1. ****[*npm start*]**** to deploy the project on your browser
+1. **[*npm start*]** to deploy the project on your browser
+
+## Logo
+![logi](https://github.com/lolpanda2004/Freelance-dapp/assets/98698654/2a9e78d6-6997-408c-8d56-18ec2131d9e4)
+
+## Demo Vid
+
+https://github.com/lolpanda2004/Freelance-dapp/assets/98698654/a318698a-1277-482d-85be-9c840dd6721c
+
+
+
 
