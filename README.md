@@ -16,7 +16,7 @@ A decentralized application designed for freelancers to find jobs and for organi
 
 
 ## Technology Stack:
-- Frontend: React.js
+- Frontend: React.js (HTML,CSS,JS)
 - Blockchain: Ethereum (XDC network)
 - Wallet Integration: Web3.js for MetaMask connectivity
 - Babel compiler
